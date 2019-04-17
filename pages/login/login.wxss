@@ -1,0 +1,63 @@
+/* pages/login/login.wxss */
+
+.container {
+  /* background-color: #f2f2f2;   */
+  height: 100vh;
+}
+
+.head {
+  padding: 1vh 5vh;
+  text-align: center;
+}
+
+.image {
+  width: 15vh;
+  height: 15vh;
+  margin: 0 auto;
+}
+
+.text {
+  margin: 1vh auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.line-box{
+  margin-top: 5vh;
+  text-align: center;
+}
+.line {
+  width: 85%;
+  height: 1rpx;
+  background: #EEEEEE;
+  margin: 1vh auto;
+}
+
+.body {
+  margin-top: 5vh;
+  padding: 1vh 5vh;
+  text-align: left;
+}
+
+.main {
+  margin: 2vh auto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.item {
+  margin: 2vh auto;
+  font-size: 13px;
+  color: #8e8f8f;
+}
+
+.bottom {
+  margin-top: 5vh;
+  padding: 1vh 5vh;
+  text-align: center;
+}
+
+.button {
+  background-color: #02BF01;
+  color: white;
+}

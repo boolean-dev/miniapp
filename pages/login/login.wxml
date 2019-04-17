@@ -1,0 +1,25 @@
+<!--pages/login/login.wxml-->
+<view class='container'>
+
+  <view class='head'>
+    <!-- <view class='image'> -->
+      <image  class='image' src='../../image/head.jpg'></image>
+    <!-- </view> -->
+    <view class='text'>蜂货</view>
+  </view>
+
+  <view class='line-box'>
+    <view class='line'></view>
+  </view>
+  
+
+  <view class='body'>
+    <view class='main'>该小程序由蜂货开发，请确认授权以下信息</view>
+    <text decode='{{true}}' class='item'>• &nbsp; &nbsp; 获取你的公开信息(昵称、头像等)</text>
+  </view>
+
+  <view class='bottom'>
+    <button class='button'  open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">确认登录</button>
+  </view>
+
+</view>
